@@ -1,0 +1,46 @@
+h1{
+    margin: 30px 0px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.container img{
+    width: 500px;
+}
+.container .set{
+    margin-bottom: 100px;
+}
+.set{
+    margin: 0 auto;
+}
+
+.two-set{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.one, .two{
+    padding: 60px;
+    text-align: center;
+}
+
+img{
+    border-radius: 10px;
+}
+
+@media(max-width:1200px){
+    .two-set{
+        width: 600px;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:600px){
+    h1{font-size: 30px;}
+    .two-set{
+        width: 400px;
+        flex-direction: column;
+    }
+}

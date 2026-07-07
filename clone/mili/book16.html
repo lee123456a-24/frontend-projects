@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>추천도서 | 밀리의 서재</title>
+    <link rel="icon" href="assets/favicon.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://kit.fontawesome.com/fb31173d2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/filter-btn.css"/>
+    <link rel="stylesheet" href="js/main.js"/>
+    <link rel="stylesheet" href="css/wiget.css">
+    <link rel="stylesheet" href="css/mega.css">
+    <link rel="stylesheet" href="css/mquery.css">
+    <link rel="stylesheet" href="css/3dstyle.css">
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper">
+          <input type="radio" id="menu-btn" name="slider">
+          <input type="radio" id="close-btn" name="slider">
+    
+          <div class="logo">
+              <a href="index.html"><img src="images/logo.png" alt=""></a>
+          </div>
+    
+          <ul class="nav-links">
+              <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+              <li><a href="company.html">회사소개</a></li>
+              <!-- 드롭다운 -->
+              <li>
+                  <input type="checkbox" id="showDrop">
+                  <a href="book01.html" class="desktop-item">추천도서</a>
+                  <ul class="drop-menu">
+                      <li><a href="book01.html">
+                        <p>총균쇠</p>
+                        <img src="fimages/b20.jpg" alt="">
+                      </a></li>
+                      <li><a href="book02.html">
+                        <p>사피엔스</p>
+                        <img src="fimages/b18.jpg" alt="">
+                      </a></li>
+                      <li><a href="book03.html">
+                        <p>역사의 쓸모</p>
+                        <img src="fimages/b21.jpg" alt="">
+                      </a></li>
+                      <li><a href="book04.html">
+                        <p>넥서스</p>
+                        <img src="fimages/b19.jpg" alt="">
+                      </a></li>
+                      <li><a href="book05.html">
+                        <p>꾸준함의 기술</p>
+                        <img src="fimages/b16.jpg" alt="">
+                      </a></li>
+                      <li><a href="book06.html">
+                        <p>부자들의 서재</p>
+                        <img src="fimages/b15.jpg" alt="">
+                      </a></li>
+
+                  </ul>
+              </li>
+              <!-- 메가메뉴 -->
+              <li>
+                  <input type="checkbox" id="showMega">
+                  <a href="all01.html" class="desktop-item">인기 도서</a>
+    
+                  <div class="mega-box">
+                      <div class="content">
+                          <div class="row">
+                              <img src="images/mega-photo.jpg" alt="">
+                          </div>
+              
+                          <div class="row">
+                              <h3>월간 베스트셀러</h3>
+                              <ul class="mega-links">
+                                  <li><a href="book01.html">총균쇠</a></li> 
+                                  <li><a href="book02.html">사피엔스</a></li> 
+                                  <li><a href="book03.html">역사의 쓸모</a></li> 
+                                  <li><a href="book04.html">넥서스</a></li> 
+                              </ul>
+                          </div>
+              
+                          
+                          <div class="row">
+                            <h3>장르별 인기도서</h3>
+                            <ul class="mega-links">
+                              <li><a href="all01.html">- 총류</a></li> 
+                              <li><a href="all02.html">- 경제</a></li> 
+                              <li><a href="all03.html">- 철학</a></li> 
+                              <li><a href="all04.html">- 역사</a></li> 
+                            </ul>
+                          </div>
+
+                          <div class="row">
+                              <h3>밀리의 서재</h3>
+                              <ul class="mega-links">
+                                <li><a href="https://www.millie.co.kr/v4/brand/b2b">밀리의 서재 서비스</a></li> 
+                                <li><a href="https://www.millie.town/">KT밀리의서제</a></li> 
+                                  <li><a href="https://www.millie.co.kr/v3/customer">밀리의 서재 고객 센터 </a></li> 
+                              </ul>
+                          </div>
+
+                        </div>
+                      </div>
+                    </li>
+              <li><a href="customer.html">고객센터</a></li>
+              
+          </ul>
+          <li style: list><a href="login.html" class="login" target="_blank">로그인</a></li>
+          <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+      </div>
+    </nav>
+
+    <header>
+      <div class="header__container">
+        <div class="header__content">
+          <p>당신의 시간을 더욱 풍요롭게</p>
+          <h1>독서와 무제한 친해지리, 밀리의 서재</h1>
+          <div class="header__btns">
+            <a href="login.html"><button class="btn">무료 구독하기</button></a>
+            <a href="login.html">
+              <span><i class="ri-play-circle-fill"></i></span>
+            </a>
+          </div>
+        </div>
+        <div class="header__image">
+          <iframe width="850" height="478" 
+          src="https://www.youtube.com/embed/16Fp0Xhe3R8?autoplay=1&mute=1&loop=1&playlist=16Fp0Xhe3R8&modestbranding=1&playsinline=1" 
+          title="YouTube video player" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: block; object-fit: cover;">
+        </iframe>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container showcase__container" id="package">
+      <div class="showcase__image">
+        <img src="img/l-b16.jpg" alt="showcase" />
+      </div>
+      <div class="showcase__content">
+        <h4>유니클로</h4>
+        <p>
+          2009년 일본 부자 1위, 야나이 다다시 불황에서 단숨에 10배 성장한 가치혁신 기업, 유니클로 유니클로의 창업자 야나이 다다시에게서 배우는 성공 비결! “유니클로야말로 새로운 가치를 찾아내 시장을 개척한 가치혁신 기업이다.” -오마에 겐이치(세계적인 경영 구루) 2009년 언론과 재계가 가장 주목한 야나이 다다시와 유니클로에 관한 국내 최초 보고서!
+        </p>
+        <p>
+          2009년 불황에 빠진 일본 언론이 한 목소리로 극찬한 ‘승리한 단 하나의 기업’이 있다. 바로 일본 캐주얼 의류 브랜드 유니클로다. 모두가 안 된다던 사양사업에서 2009년 일본 최대 판매 실적 기록, 5년간 매출 90% 증가, 매장 수 3배 확장, 평균 영업이익률 15%를 넘어서는 괄목할 만한 성과를 거둔 유니클로. 세계적인 불황 속에서 모두가 돌파구를 찾고 있는 지금, 아시아를 넘어 전 세계가 유니클로를 주목하는 이유다. 그리고 이런 유니클로의 성공을 견인하는 한가운데에 야나이 다다시라는 거물이 숨어 있다. 그는 2009년『포브스』가 선정한 갑부 대열에서 손정의와 닌텐도의 야마우치 히로시 회장 등을 누르고 ‘일본 부자 1위’에 당당히 등극해 큰 화제를 불러일으켰다. 지방의 작은 양복점 주인에서 시작해 25년 만에 일본 최고의 부자가 된 비결은 무엇일까? 무엇이 신화라 불리는 유니클로의 질주를 추동하는가? 2009년 가을부터 한국시장을 본격적으로 공략하기 시작한 유니클로가 국내 업체와의 한판 경쟁을 선언한 가운데 재계와 유통업, 언론은 물론 일반인들까지 유니클로에 대한 관심이 증폭되고 있다. 신간 『야나이 다다시, 유니클로 이야기』는 이처럼 2009년 전 언론과 재계가 주목하는 가운데 그 궁금증을 단번에 풀어줄 ‘유니클로에 관한 국내 최초의 보고서’이다. 과거와 현재, 미래를 아우르는 유니클로의 성공과 실패를 한눈에 짚어주고, 야나이 다다시라는 인물의 경영 철학과 신념, 공격적인 카리스마 등을 철저하게 분석한 이 책은 유니클로의 대내외적 전략과 성공비결을 다룬 최초의 국내 서적이라는 점에서 이미 업계와 서점가에 큰 화제가 되고 있다.
+        </p>
+      </div>
+    </section>
+
+    <section class="section__container article__container">
+      <div class="article">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <h6>무기력한 게으름뱅이였던 야나이 다다시가 아버지에게 물려받은 탄광촌 신사복 가게를 어떻게 세계적인 회사 유니클로로 변모시켰는지 그 여정이 생생히 담겨있는 책이다.</h6>
+        <p>신수정 - <span>(KT부문장,『거인의 리더십』『일의 격』『커넥팅』 저자)</span></p>
+      </div>
+
+      <div class="article">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+        <h6>유니클로의 사례를 통해 우리는 위기를 기회로 만드는 법을 배울 수 있을 것이다. 당신의 위기를 낭비하지 말라.</h6>
+        <p>최지혜 - <span> (서울대 소비트렌드분석센터 연구위원,『트렌드 코리아 2025』저자)</span></p>
+      </div>
+
+      <div class="article">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <h6>혁신의 실마리를 찾고자 하는 기업의 리더와 비즈니스맨에게 꼭 한 번 읽어보기를 권한다.</h6>
+        <p>박종규 - <span>스택튼 아일랜드칼리지 경영학과 조교수</span></p>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <main class="kmain">
+          <div class="kkslider" reverse="true" style=" --width: 150px; --height: 200px; --quantity: 9; ">
+            <div class="kklist">
+                <a href="book01.html"><div class="kkitem" style="--position: 1"><img src="img/l-b01.jpg" alt=""></div></a>
+                <a href="book02.html"><div class="kkitem" style="--position: 2"><img src="img/l-b02.jpg" alt=""></div></a>
+                <a href="book11.html"><div class="kkitem" style="--position: 3"><img src="img/l-b11.jpg" alt=""></div></a>
+                <a href="book03.html"><div class="kkitem" style="--position: 4"><img src="img/l-b03.jpg" alt=""></div></a>
+                <a href="book12.html"><div class="kkitem" style="--position: 5"><img src="img/l-b12.jpg" alt=""></div></a>
+                <a href="book04.html"><div class="kkitem" style="--position: 6"><img src="img/l-b04.jpg" alt=""></div></a>
+                <a href="book07.html"><div class="kkitem" style="--position: 7"><img src="assets/book-title.jpg" alt=""></div></a>
+                <a href="book05.html"><div class="kkitem" style="--position: 8"><img src="img/l-b05.jpg" alt=""></div></a>
+                <a href="book06.html"><div class="kkitem" style="--position: 9"><img src="img/l-b06.jpg" alt=""></div></a>
+            </div>
+        </div>
+    </main>
+    </section>
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <a href="index.html">
+            <div class="footer__logo">
+            </div>
+          </a>
+
+          <p>
+            독서 보유량 1위, 국대 도서 분야 앱 1위, 도서분야 품질 만족도1위에 밀리의 서재에서 당신의 독서를 편안하고 만족스럽게
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="https://www.facebook.com/millie.co.kr/?locale=ko_KR"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/millie_bookclub/"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UC6bk8AaEXA1hBnGXcLyj1QQ"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>밀리의 서재</h4>
+          <ul class="footer__links" style="padding: 10px 12px;">
+            <li><a href="company.html">회사 소개</a></li> 
+            <li><a href="book01.html">추천도서</a></li> 
+              <li><a href="all01.html">인기도서 </a></li> 
+              <li><a href="customer.html">고객센터 </a></li> 
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>연락문의</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +91 9876543210
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span><i class="ri-record-mail-line"></i></span> info@milibook
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> Seoul, Korea
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>구독</h4>
+          <form action="/">
+            <input type="text" placeholder="이메일을 입력하세요" />
+            <a href="login.html" class="btn" style="text-align: center; font-weight: 500;">로그인</a>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 밀리의 서재-이정빈. All rights reserved.
+      </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+    <script>
+      document.querySelectorAll(".toggleButton").forEach(button => {
+          button.addEventListener("click", function() {
+              let content = this.nextElementSibling;
+      
+              if (content.style.display === "none" || content.style.display === "") {
+                  content.style.display = "block"; // 펼치기
+              } else {
+                  content.style.display = "none"; // 닫기       
+              }
+          });
+      });
+    </script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/smain.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>

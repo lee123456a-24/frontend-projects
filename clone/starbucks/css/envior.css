@@ -1,0 +1,200 @@
+.banner{
+    width: 100%;
+    height: 500px;
+    background: rgb(245, 242, 242);
+    margin: 0;
+    padding: 0;
+}
+.banner2{
+  width: 100%;
+  height: 500px;
+  background: rgb(255, 255, 255);
+  margin-bottom: 50px;
+  padding: 30px;
+}
+.inside{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.right{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-png{
+    position: absolute;
+    top: -41px;
+    right: 0;
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/enviro_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.right h4{padding: 5px 0px; font-size: 16px;}
+.right p{ padding: 10px 0px; color: #383838; font-size: 14px;}
+
+.text-1{
+text-align: left;
+padding-left: 20px;
+}
+.text-2{
+text-align: left;
+padding-left: 20px;
+}
+
+.right a{
+    padding-left: 20px;
+    color: #000;
+}
+.right a:hover{
+    color: #727272;
+}
+
+
+.swiper-container {
+    width: 70%;
+    height: 400px;
+    margin: 40px auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+.swiper-container h2{
+    margin-bottom: 14px;
+}
+
+
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .swiper-button-next:hover{
+    color: #00c95a;
+    border:3px solid #00c95a;
+  }
+  .swiper-button-prev:hover{
+    color: #00c95a;
+    border:3px solid #00c95a;
+  }
+  .swiper-pagination-bullets {
+    bottom: 10px !important;
+  }
+
+  .swiper-pagination-bullet {
+    background: #ccc;
+    opacity: 1;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #000;
+  }
+
+  .top-text, .bottom-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50%;
+    margin:  auto;
+    text-align: left;
+  }
+  .top-text img, .bottom-text img{
+    width: 446px;
+  }
+  .text-set h4{padding: 10px 0px;}
+  .text-set p{
+    color: #525252;
+    font-size: 14px;
+    padding: 20px 0px;
+  }
+  .text-set span{
+    color: #006b36;
+    font-size: 18px;
+  }
+  .text-set{
+    width: 650px;
+    padding: 20px;
+  }
+  @media(max-width:1200px){
+    .banner2{
+      height: 600px;
+      padding: 0px;
+    }
+    .top-text, .bottom-text{
+      width: 80%;
+      height: 50%;
+    }
+    .top-text img, .bottom-text img{
+      width: 386px;
+    }
+  }
+  @media(max-width:900px){
+    .top-text img, .bottom-text img{
+      width: 286px;
+    }
+  }
+  @media(max-width:800px){
+    .bg-png{
+        top: -24px;
+        width: 300px;
+        height: 300px;
+    }
+    .right{
+        width: 50%;
+    }
+
+    .banner2{
+      height: 700px;
+      padding: 0px;
+    }
+    .top-text, .bottom-text{
+      width: 100%;
+      height: 50%;
+    }
+    .top-text img, .bottom-text img{
+      width: 246px;
+    }
+  }
+
+  @media(max-width:600px){
+    .banner2{
+      height: 900px;
+      padding: 0px;
+    }
+    .top-text img, .bottom-text img{
+      width: 226px;
+    }
+
+    .text-set p{
+      font-size: 13px;
+    }
+    .text-set span{
+      font-size: 16px;
+    }
+  }

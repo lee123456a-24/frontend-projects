@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스타벅스 코리아</title>
+  <script src="https://kit.fontawesome.com/fb31173d2f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/customer.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="icon" href="images/logo.png">
+</head>
+
+<body>
+  <!-- Header and Navigation -->
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.png" alt="Berger Hut Logo">
+      </a>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="cold.html">콜드브루</a></li>
+        <li><a href="latte.html">라떼</a></li>
+        <li><a href="pigio.html">피지오</a></li>
+        <li><a href="envior.html">사회공헌</a></li>
+        <li><a href="company.html">회사정보</a></li>
+        <li><a href="customer.html">고객문의</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+  </header>
+
+  
+  <div class="" style="width: 100%; height: 70px; line-height:190px; text-align: center; color: #00490c;"><h1>질문사항</h1></div>
+  <section class="custom">
+    <div class="qna">
+        <div class="faq">
+            <h3>FAQ</h3>
+            <p>자주 하는 질문을 모아놓았습니다. 궁금하신 내용을 검색해 주세요.</p>
+            <ul>
+                <li><a href="">[쿠폰] e-쿠폰은 어떻게 사용할 수 있나요?</a></li>
+                <li><a href="">[별] 별 적립 기준은 무엇인가요?</a></li>
+                <li><a href="">[카드환불] 스타벅스 카드의 환불 기준은 무엇인가요?</a></li>
+                <li><a href="">[골드레벨] 골드레벨은 어떻게 진입할 수 있나요?</a></li>
+                <li><a href="">[운영기준] 유효기간이 만료된 쿠폰도 사용이 가능한가요?</a></li>
+            </ul>
+        </div>
+        
+        <div class="sound">
+            <h3>고객의 소리</h3>
+            <p>문의에 대한 처리현황을 확인할 수 있습니다.</p>
+            <div class="login">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                <p style="color: rgb(97, 97, 97);">로그인이 필요한 서비스입니다.</p>
+            </div>
+            <a href="index.html" class="btn">로그인</a>
+        </div>
+    </div>
+</section>
+
+<section class="custom">
+    <div class="slider">
+        <div class="slides" id="slides">
+            <div class="slide">
+                <div class="bar">
+                    <h4>홈페이지 이용팁</h4>
+                    <div class="top-btn">
+                        1/3    
+                        <button onclick="prevSlide()"> < </button>
+                        <button onclick="nextSlide()"> > </button>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <div class="">
+                        <button onclick="prevSlide()"> < </button>
+                    </div>
+                    
+                    <div class="top-box">
+                        <div class="left">
+                            <div class="left-image">
+                                <img src="images/callendar.jpg" alt="">
+                            </div>
+                            <div class="text">
+                                <p>일상을 공유하는 My 캘린더</p>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <div class="right-image">
+                                <img src="images/loacation.jpg" alt="">
+                            </div>
+                            <div class="text">
+                                <p>빠르고 편리한 매장 찾기 서비스</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <button onclick="nextSlide()"> > </button>
+                    </div>
+                </div>
+
+                <div class="three">
+                    <div class="box">
+                        <i class="fa-solid fa-computer"></i>
+                        <div class="box-text">
+                            <h4>홈페이지 이용 팁</h4>
+                            <p> 회원가입부터 카드등록까지 방법 안내</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <div class="box-text">
+                            <h4>애플리케이션 이용 팁</h4>
+                            <p> 애플리케이션 다운로드 후 이용방법</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-id-card"></i>
+                        <div class="box-text">
+                            <h4>제휴카드 안내</h4>
+                            <p>스타벅스 할인 및 혜택 제휴카드 안내</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="bar">
+                    <h4>애플리케이션 이용팁</h4>
+                    <div class="top-btn">
+                        2/3    
+                        <button onclick="prevSlide()"> < </button>
+                        <button onclick="nextSlide()"> > </button>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <div class="">
+                        <button onclick="prevSlide()"> < </button>
+                    </div>
+                    
+                    <div class="top-box">
+                        <div class="left">
+                            <div class="left-image">
+                                <img src="images/callendar.jpg" alt="">
+                            </div>
+                            <div class="text">
+                                <p>다양한 스타벅스 콘텐츠</p>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <div class="right-image">
+                                <img src="images/callendar.jpg" alt="">
+                            </div>
+                            <div class="text">
+                                <p>나만의 맞춤형 통계 정보</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <button onclick="nextSlide()"> > </button>
+                    </div>
+                </div>
+
+                <div class="three">
+                    <div class="box">
+                        <i class="fa-solid fa-computer"></i>
+                        <div class="box-text">
+                            <h4>홈페이지 이용 팁</h4>
+                            <p> 회원가입부터 카드등록까지 방법 안내</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <div class="box-text">
+                            <h4>애플리케이션 이용 팁</h4>
+                            <p> 애플리케이션 다운로드 후 이용방법</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-id-card"></i>
+                        <div class="box-text">
+                            <h4>제휴카드 안내</h4>
+                            <p>스타벅스 할인 및 혜택 제휴카드 안내</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="bar">
+                    <h4>모바일 이용팁</h4>
+                    <div class="top-btn">
+                        3/3    
+                        <button onclick="prevSlide()"> < </button>
+                        <button onclick="nextSlide()"> > </button>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <div class="">
+                        <button onclick="prevSlide()"> < </button>
+                    </div>
+                    
+                    <div class="top-box">
+                        <div class="left">
+                            <div class="left-image">
+                                <img src="images/callendar.jpg" alt="">
+                            </div>
+                            <div class="text">
+                                <p>일상을 공유하는 My 캘린더</p>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <div class="right-image">
+                                <img src="images/callendar.jpg" alt="">
+                            </div>
+                            <div class="text">
+                                <p>빠르고 편리한 매장 찾기 서비스</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <button onclick="nextSlide()"> > </button>
+                    </div>
+                </div>
+
+                <div class="three">
+                    <div class="box">
+                        <i class="fa-solid fa-computer"></i>
+                        <div class="box-text">
+                            <h4>홈페이지 이용 팁</h4>
+                            <p> 회원가입부터 카드등록까지 방법 안내</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <div class="box-text">
+                            <h4>애플리케이션 이용 팁</h4>
+                            <p> 애플리케이션 다운로드 후 이용방법</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-id-card"></i>
+                        <div class="box-text">
+                            <h4>제휴카드 안내</h4>
+                            <p>스타벅스 할인 및 혜택 제휴카드 안내</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Logo">
+        </a>
+      </div>
+      <nav class="footer-links">
+        <a href="cold.html">콜드브루</a>
+        <a href="latte.html">라떼</a>
+        <a href="pigio.html">피지오</a>
+        <a href="envior.html">환경보호 활동</a>
+        <a href="company.html">회사정보</a>
+        <a href="customer.html">고객문의</a>
+      </nav>
+
+      <div class="footer-social">
+        <a href="https://www.facebook.com/starbuckskorea/?locale=ko_KR"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://x.com/starbucksKorea?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/starbuckskorea/?hl=ko"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <p class="footer-text">&copy; 2025 스타벅스 리뉴얼. UI/UX Designer 이정빈.</p>
+  </footer>
+
+
+  <script src="js/slider.js"></script>
+  <script>
+    function toggleMenu() {
+  const navLinks = document.querySelector('.nav-links');
+  const hamburger = document.querySelector('.hamburger');
+  
+  navLinks.classList.toggle('active');
+  hamburger.classList.toggle('active');
+}
+  </script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+*, html{margin: 0px; padding: 0; box-sizing: border-box;}
+li{color: #5f5f5f;}
+a{text-decoration: none;}
+
+.custom{
+    width: 100%;
+    padding: 100px 0px 100px 0px;
+}
+
+.qna{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid #b1b1b1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+}
+.qna:after{
+    content: '';
+    width: 1px;
+    height: 200px;
+    background: #979797;
+    position: absolute;
+    top: 7%;
+    left: 55%;
+}
+
+.faq{
+    width: 60%;
+    padding: 20px;
+}
+
+.faq p{
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+.faq ul{
+    padding-left: 15px;
+}
+.faq ul li{
+    font-size: 14px;
+    padding: 2px 0px;
+}
+.faq ul li a{
+    color: rgb(97, 97, 97);
+}
+.faq ul li a:hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid #000;
+}
+.sound{
+    width: 40%;
+    padding: 20px;
+}
+.sound p{ padding: 10px 0px;}
+.sound i{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 2px solid #696969;
+    background-color: #e4e4e457;
+    color: #00490c;
+}
+.sound .btn{
+    width: 70%;
+    height: 16%;
+    border-radius: 30px;
+    background: #00490c;
+    color: white;
+    border: none;
+    text-align: center;
+    line-height: 12px;
+}
+.sound .btn:hover{
+    background: #008a17;
+    color: white;
+}
+.login{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+@media (max-width: 600px){
+    .qna{
+        justify-content: space-between;
+        flex-direction: column;
+        position: relative;
+    }
+    .qna:after{display: none;}
+
+    .faq, .sound{width: 100%;}
+}

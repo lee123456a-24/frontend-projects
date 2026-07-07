@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fb31173d2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="slider-container">
+    <div class="slider-images">
+        <div class="slider-img">
+            <img src="images/img01.png" alt="">
+            <h1>ART WORK-1</h1>
+            <div class="details">
+                <h2>ART WORK-1</h2>
+                <p>&nbsp;02&nbsp;.06.&nbsp;&nbsp; 2025</p>
+                <p>Duration of time : 3times</p>
+            </div>
+        </div>
+        
+        <div class="slider-img">
+            <img src="images/img02.png" alt="">
+            <h1>ART WORK-2</h1>
+            <div class="details">
+                <h2>ART WORK-2</h2>
+                <p>&nbsp;02&nbsp;.06.&nbsp;&nbsp; 2025</p>
+                <p>Duration of time : 3times</p>
+            </div>
+        </div>
+
+        <div class="slider-img">
+            <img src="images/img03.png" alt="">
+            <h1>ART WORK-3</h1>
+            <div class="details">
+                <h2>ART WORK-3</h2>
+                <p>&nbsp;02&nbsp;.06.&nbsp;&nbsp; 2025</p>
+                <p>Duration of time : 3times</p>
+            </div>
+        </div>
+
+        <div class="slider-img">
+            <img src="images/img04.png" alt="">
+            <h1>PHOTO SHOP</h1>
+            <div class="details">
+                <h2>PHOTOSHOP</h2>
+                <p>&nbsp;02&nbsp;.06.&nbsp;&nbsp; 2025</p>
+                <p>Duration of time : 3times</p>
+            </div>
+        </div>
+
+        <div class="slider-img">
+            <img src="images/img05.png" alt="">
+            <h1>LAYER MASK-1</h1>
+            <div class="details">
+                <h2>LAYER MASK-1</h2>
+                <p>&nbsp;02&nbsp;.06.&nbsp;&nbsp; 2025</p>
+                <p>Duration of time : 3times</p>
+            </div>
+        </div>
+
+        <div class="slider-img">
+            <img src="images/img06.png" alt="">
+            <h1>LAYER MASK-2</h1>
+            <div class="details">
+                <h2>LAYER MASK-2</h2>
+                <p>&nbsp;02&nbsp;.06.&nbsp;&nbsp; 2025</p>
+                <p>Duration of time : 3times</p>
+            </div>
+        </div>
+
+        <div class="slider-img">
+            <img src="images/img07.png" alt="">
+            <h1>LAYER MASK-3</h1>
+            <div class="details">
+                <h2>LAYER MASK-3</h2>
+                <p>&nbsp;02&nbsp;.06.&nbsp;&nbsp; 2025</p>
+                <p>Duration of time : 3times</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="js/jQuery.js"></script>
+
+<script>
+    jQuery(document).ready(function ($){
+        $(".slider-img").on("click", function (){
+            $(".slider-img").removeClass("active");
+            $(this).addClass("active");
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+/*=============== GOOGLE FONTS ===============*/
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: hsl(0, 0%, 100%);
+  --first-color-light: hsl(0, 0%, 100%);
+  --first-color-alt: hsl(0, 0%, 100%);
+  --second-color: hsl(195, 75%, 52%);
+  --dark-color: hsl(212, 40%, 12%);
+  --white-color: hsl(212, 4%, 95%);
+  --kcontainer-color: #ffffff65;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== CARD ===============*/
+.kcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+  margin-bottom: -150px;
+  margin-top: -150px;
+
+  overflow: hidden;
+}
+
+.card_content {
+  margin-inline: 1.75rem;
+  overflow: hidden;
+}
+
+.card_article {
+  width: 250px; /* Remove after adding swiper js */
+  overflow: hidden;
+  padding-bottom: 2em;
+}
+
+.card_image {
+  position: relative;
+  width: 100%;
+}
+
+.card_data {
+  width: 100%;
+  background-color: rgba(191, 227, 255, 0.79);
+  padding: 8px;
+  text-align: center;
+  position: absolute;
+  top: 125px;
+  right: 0;
+  z-index: 10;
+}
+.card_data p{
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 10px;
+  text-align: center;
+  
+  color: rgb(0, 0, 0);
+}
+
+.card_img {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+
+.card_shadow {
+  width: 200px;
+  height: 200px;
+  background-color: var(--first-color-alt);
+  border-radius: 50%;
+  position: absolute;
+  top: 3.75rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  filter: blur(45px);
+}
+
+.card_name {
+  font-size: var(--h2-font-size);
+  color: rgb(0, 0, 0);
+  margin-bottom: .75rem;
+}
+
+
+/* Swiper class */
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  content: "";
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+  display: none;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-pagination-bullet {
+  background-color: hsl(212, 32%, 40%);
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--second-color);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .card_data {
+    padding: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card_content {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .card_kcontainer {
+    max-width: 1120px;
+  }
+
+  .swiper-button-prev {
+    left: -1rem;
+  }
+  .swiper-button-next {
+    right: -1rem;
+  }
+}

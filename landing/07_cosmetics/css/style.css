@@ -1,0 +1,269 @@
+*, html{margin: 0;padding: 0;box-sizing: border-box;}
+a{text-decoration: none;}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background: #b1b1b1;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    width: 1600px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    background: rgb(253,252,253);
+    background: linear-gradient(90deg, rgba(253,252,253,1) 0%, rgba(217,217,217,1) 53%, rgba(182,182,182,1) 100%);
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 15px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+header{
+    width: 90%;
+    height: 110px;
+    margin: 0 auto; padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.logo{width: 250px;}
+img{width: 100%;object-fit: cover;}
+
+.hero header nav{
+    width: 80%;
+    height: 110px;
+    margin: 0;padding: 0;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+align-items: center;
+}
+
+.nav-list{
+    width: 900px;
+    margin: 0;padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rd{
+    color: red;
+    font-weight: 600;
+    position: relative;
+}
+
+.active{position: relative;}
+
+.active::after{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: rgb(255, 255, 67);
+    position: absolute;
+    border-radius: 30px;
+    top: -4px;left: 109px;
+    border: none;
+}
+
+.rd::after{
+    content: "";
+    width: 110px;
+    height: 3px;
+    background: red;
+    position: absolute;
+    border: none;
+    top: 23px;
+    left: 0;
+}
+
+.nav-list a{color: #000;}
+
+ul{list-style: none;}
+
+li{display: inline-block; margin-right: 30px; position: relative;}
+
+li:hover{ color: red; border-bottom: 3px solid red; transition: 0.2s;}
+
+.search{
+    width: 300px;
+    height: 40px;
+    border: none;
+    color: white;
+    position: relative;
+}
+
+.search input{
+    padding: 7px;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 20px; 
+    color: white;
+
+    position: relative;
+}
+
+.search a{
+    position: absolute;
+    top: 8px;
+    right: 50px;
+}
+
+/* ***********중단********** */
+
+.hero .banner{margin: 10px 0px 0px 0px;}
+
+.hero .banner .container{
+    max-width: 92%;
+    padding: 50px;
+    background: transparent;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .banner .detail, .hero .banner .cover{
+    flex: 1;
+}
+
+.hero .banner .detail { text-align: justify; padding-right: 100px;}
+.banner .container .detail h1{ font-size: 40px;}
+.banner .container .detail p{ padding: 50px 0px;}
+.banner .container .detail .btn{ 
+    padding: 10px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: rgb(252, 145, 5);
+    font-size: 20px; color: black;
+}
+
+.banner .container .detail .btn:hover{
+    color: rgb(252, 145, 5);
+    background: rgb(7, 6, 4);
+    transition: 0.5s;
+}
+
+.hero .banner .cover img{
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0px 2px 2px #333);
+    animation: slide 1s ease;
+}
+
+@keyframes slide {
+    0% {opacity:0 ;
+        transform: translateY(-100px);
+        }
+    100% {opacity: 1;
+        transform: translateY(0px);
+        }
+}
+
+/* *************** */
+.hero .banner .worked_with {margin-top: 20px; width: 100%;}
+.hero .banner .worked_with .col{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.container .worked_with .col.company{border: 1px solid #000;}
+.container .worked_with .col.company a{ color: rgb(255, 0, 255);}
+.container .worked_with .col .company a:hover{color: red;
+}
+
+.container .worked_with .col .company p{display: inline-block; padding-right: 10px; color: black;}
+.container .worked_with .col .company p:hover{ color: red;}
+
+.container .worked_with .col .connect{
+    align-self: flex-end;
+}
+
+.container .worked_with .col .connect i{color: black;font-size: 23px; padding-right: 5px;position: relative;
+}
+.container .worked_with .col .connect i:hover{color: blue;
+}
+
+.container .worked_with .col .connect i:after{
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: rgb(255, 0, 0);
+    border-radius: 10px;
+    position: absolute;
+    top: -6px;
+    right: 0px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.container .worked_with .col .connect i:hover:after{
+opacity: 1;
+}
+
+/****** hamburger menu ***********/
+.hamb{
+    width: 50px;
+    height: 50px;
+position: relative;
+top: 10px;
+}
+
+.hamb span{
+    width: 22px;
+    height: 5px;
+    background: rgb(187, 160, 62);
+    border-radius: 50px;
+    position: absolute;
+    top: 10px;
+}
+
+.hamb span::before{
+    content: "";
+    width: 30px;
+    height: 5px;
+    background: rgb(187, 160, 62);
+    border-radius: 50px;
+    position: absolute;
+    top: -10px;
+}
+
+.hamb span::after{
+    content: "";
+    width: 18px;
+    height: 5px;
+    background: rgb(187, 160, 62);
+    border-radius: 50px;
+    position: absolute;
+    top: 10px;
+}
+
+.hamb:active{
+    width: 1000px;
+    height: 100px;
+    background: white;
+    
+}
+.hamb:active span{
+    color: red;
+}

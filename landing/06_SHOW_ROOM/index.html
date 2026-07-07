@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW LANDING</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="topnav">
+            <a href=""><img src="images/logo.png" alt=""></a>
+            <a href="" class="active">메뉴</a>
+            <a href="">카테고리</a>
+            <a href="">정보</a>
+            <a href="">문의</a>
+            <a href="">회사</a>
+        </div>
+    </div>
+
+    <div id="slide">
+        <div class="item">
+            <div class="image"><img src="images/car01.png"></div>
+            <div class="content">
+                <div class="left">
+                    <h1>BMW i8</h1>
+                    <div class="des">한국자동차기자협회 선정 ‘2023 올해의 EV’.</div>
+                    <button>알아보기
+                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+
+                <div class="right">
+                    <h2>차량 정보</h2>
+                    <ul>
+                        <li>
+                            <p>합산 최고 출력 544마력</p>
+                            <p>가속력 (0-100 km/h: 초) 4.7초</p>
+                        </li>
+                        <li>
+                            <p>BMW 커브드 디스플레이와 BMW</p>
+                            <p>높은 에너지 밀도를 갖춘 105.7 고전압 배터리</p>
+                        </li>
+                        <li>
+                            <p>바워스 & 윌킨스 다이아몬드</p>
+                            <p>BMW 크리스털 헤드라이트 ‘아이코닉 글로우＇
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="images/car03.png">
+            </div>
+            <div class="content">
+                <div class="left">
+                    <h1>BMW iX</h1>
+                    <div class="des">새로워진 순수 전기 플래그십 SAV</div>
+                    <button>알아보기
+                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+                <div class="right">
+                    <h2>차량 정보</h2>
+                    <ul>
+                        <li>
+                            <p>합산 최고 출력 544마력</p>
+                            <p>가속력 (0-100 km/h: 초) 4.7초</p>
+                        </li>
+                        <li>
+                            <p>BMW 커브드 디스플레이와 BMW</p>
+                            <p>높은 에너지 밀도를 갖춘 105.7 고전압 배터리</p>
+                        </li>
+                        <li>
+                            <p>바워스 & 윌킨스 다이아몬드</p>
+                            <p>BMW 크리스털 헤드라이트 ‘아이코닉 글로우＇
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image">
+                <img src="images/car04.png">
+            </div>
+            <div class="content">
+                <div class="left">
+                    <h1>BMW i5 M60</h1>
+                    <div class="des">xDrive는 강력한 모터 주행 역동성을 통해 성능을 100% 발휘합니다.</div>
+                    <button>알아보기
+                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+                <div class="right">
+                    <h2>차량 정보</h2>
+                    <ul>
+                        <li>
+                            <p>합산 최고 출력 544마력</p>
+                            <p>가속력 (0-100 km/h: 초) 4.7초</p>
+                        </li>
+                        <li>
+                            <p>BMW 커브드 디스플레이와 BMW</p>
+                            <p>높은 에너지 밀도를 갖춘 105.7 고전압 배터리</p>
+                        </li>
+                        <li>
+                            <p>바워스 & 윌킨스 다이아몬드</p>
+                            <p>BMW 크리스털 헤드라이트 ‘아이코닉 글로우＇
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="directional">
+        <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+        <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+</div>
+
+<script>
+document.getElementById('next').onclick = function(){
+    let lists = document.querySelectorAll('.item');
+    document.getElementById('slide').appendChild(lists[0]);
+}
+
+document.getElementById('prev').onclick = function(){
+    let lists = document.querySelectorAll('.item');
+    document.getElementById('slide').prepend(lists[lists.length - 1]);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.ashowcase__container {
+    width: 285px;
+    display: grid;
+    gap: 2rem;
+    overflow: hidden;
+  }
+  
+  .ashowcase__image img {
+    width: 100%;
+    background-color: rgba(133, 133, 133, 0.432);
+    padding: 5px;
+    height: 370px;
+    margin-inline: auto;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ashowcase__content h4 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  
+  .ashowcase__content .btn {
+    width: 150px;
+    padding: 1.0rem;
+    font-weight: 600;
+    color: var(--extra-light);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+  }

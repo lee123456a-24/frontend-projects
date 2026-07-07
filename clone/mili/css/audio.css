@@ -1,0 +1,47 @@
+#audioBox {
+    position: fixed;
+    top: 45%;
+    right: 1.5%;
+    background-color: rgb(103, 103, 103);
+    padding: 5px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+
+    text-align: center;
+  }
+
+  #audioBox h5{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -6px;
+    color: rgb(255, 255, 255);
+  }
+
+  /* 버튼 스타일 */
+  .audioButton {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2887ff;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+  }
+
+  .audioButton:hover {
+    background-color: blueviolet;
+  }
+  
+  .audioButton i{
+      font-size: 16px;
+      color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+    .audioButton:hover i{color: yellow;}

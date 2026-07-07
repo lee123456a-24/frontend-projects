@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>버윅 코리아</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- remix icon cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- custom css file link  -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ani.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="js/script.js">
+    <link rel="icon" href="image/favicon.png">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="image/logo_mobile3-removebg-preview.png" alt=""></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">구두소개</a>
+            <a href="#popular">이달의 구두</a>
+            <a href="#menu">베스트셀러</a>
+            <a href="#order">매점위치</a>
+            <a href="#blogs">정보</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="ri-menu-line"></div>
+            <div id="search-btn" class="ri-search-line"></div>
+            <div id="cart-btn" class="ri-shopping-cart-line"></div>
+            <div id="login-btn" class="ri-user-line"></div>
+        </div>
+    </header>
+    <!-- header section ends  -->
+
+    <!-- search-form start -->
+    <section class="search-form-container">
+        <form action="">
+            <input type="search" placeholder="search here..." id="search-box">
+            <label for="search-box" class="ri-search-line"></label>
+        </form>
+    </section>
+    <!-- search-form end -->
+
+    <!-- shopping-cart section start -->
+    <section class="shopping-cart-container">
+        <div class="products-container">
+            <h3 class="title">나의 장바구니</h3>
+            <div class="box-container">
+                <div class="box">
+                    <i class="ri-close-line close-icon"></i>
+                    <img src="image/menu-1.png" alt="">
+                    <div class="content">
+                        <h3>model: 5031</h3>
+                        <span> 수량 : </span>
+                        <input type="number" name="" min="1" value="1" id="">
+                        <br>
+                        <span> 가격 : </span>
+                        <span class="price"> 80,000원</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="ri-close-line close-icon"></i>
+                    <img src="image/menu-2.png" alt="">
+                    <div class="content">
+                        <h3>model: 4456</h3>
+                        <span> 수량 : </span>
+                        <input type="number" name="" min="1" value="1" id="">
+                        <br>
+                        <span> 가격 : </span>
+                        <span class="price"> 62,000원</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="ri-close-line close-icon"></i>
+                    <img src="image/menu-3.png" alt="">
+                    <div class="content">
+                        <h3>model: 5921</h3>
+                        <span> 수량 : </span>
+                        <input type="number" name="" min="1" value="1" id="">
+                        <br>
+                        <span> 가격 : </span>
+                        <span class="price"> 150,000원</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="ri-close-line close-icon"></i>
+                    <img src="image/menu-4.png" alt="">
+                    <div class="content">
+                        <h3>model: 4511</h3>
+                        <span> 수량 : </span>
+                        <input type="number" name="" min="1" value="1" id="">
+                        <br>
+                        <span> 가격 : </span>
+                        <span class="price"> 79,000원</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="ri-close-line close-icon"></i>
+                    <img src="image/menu-5.png" alt="">
+                    <div class="content">
+                        <h3>model: 6032</h3>
+                        <span> 수량 : </span>
+                        <input type="number" name="" min="1" value="1" id="">
+                        <br>
+                        <span> 가격 : </span>
+                        <span class="price"> 68,000원</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="ri-close-line close-icon"></i>
+                    <img src="image/menu-6.png" alt="">
+                    <div class="content">
+                        <h3>model: 4856</h3>
+                        <span> 수량 : </span>
+                        <input type="number" name="" min="1" value="1" id="">
+                        <br>
+                        <span> 가격 : </span>
+                        <span class="price"> 88,000원</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="ri-close-line close-icon"></i>
+                    <img src="image/menu-7.png" alt="">
+                    <div class="content">
+                        <h3>model: 5212</h3>
+                        <span> 수량 : </span>
+                        <input type="number" name="" min="1" value="1" id="">
+                        <br>
+                        <span> 가격 : </span>
+                        <span class="price"> 119,000원</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="ri-close-line close-icon"></i>
+                    <img src="image/menu-8.png" alt="">
+                    <div class="content">
+                        <h3>model: 5277</h3>
+                        <span> 수량 : </span>
+                        <input type="number" name="" min="1" value="1" id="">
+                        <br>
+                        <span> 가격 : </span>
+                        <span class="price"> 159,000원</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <h3 class="title"> 합계</h3>
+            <div class="box">
+                <h3 class="subtitle"> 총 수량: <span>8개</span> </h3>
+                <h3 class="total"> 총 가격: <span>805,000원</span> </h3>
+                <a href="#" class="btn">결제하기</a>
+            </div>
+        </div>
+    </section>
+    <!-- login-form start -->
+    <div class="login-form-container">
+        <form action="">
+            <h3>로그인</h3>
+            <input type="email" placeholder="여기에 이메일을 입력하세요" class="box">
+            <input type="password" placeholder="비밀번호를 입력하세요" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">기억하기</label>
+            </div>
+            <input type="submit" value="로그인" class="btn">
+            <p>비밀번호를 잊으셨나요? <a href="#"> 클릭하기</a> </p>
+            <p>아이디가 없으신가요? <a href="#">가입하기</a> </p>
+        </form>
+    </div>
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+        <div class="content">
+            <span>버윅 코리아에 오신 것을 환영합니다.</span>
+            <h3>저희 구두는 스페인 장인들이 직접만들어 각 제품이 특별합니다.</h3>
+            <p>버윅 사 만의 특별한 제조법으로 편안하고 세련된 수제 구두를  근처 매장에서 바로 만나 보실 수 있습니다.</p>
+            <a href="#popular" class="btn">주문 하기</a>
+        </div>
+
+        <div class="image">
+            <img src="image/home-img.png" alt="" class="home-img">
+            <img src="image/home-parallax-img.png" alt="" class="home-parallax-img">
+        </div>
+    </section>
+    <!-- home section ends  -->
+
+    <!-- category section starts  -->
+    <section class="category">
+        <a href="#" class="box">
+            <img src="image/cat-1.png" alt="">
+            <h3>모카신</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/cat-2.png" alt="">
+            <h3>태슬</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/cat-3.png" alt="">
+            <h3>로퍼</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/cat-4.png" alt="">
+            <h3>보트 슈즈</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/cat-5.png" alt="">
+            <h3>더비</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/cat-6.png" alt="">
+            <h3>플레인 토</h3>
+        </a>
+    </section>
+    <!-- category section ends -->
+
+    <!-- about section starts  -->
+    <section class="about" id="about">
+        <div class="image">
+            <img src="image/about-img.png" alt="">
+        </div>
+
+        <div class="content">
+            <span>왜 저희 제품이 최고인가요?</span>
+            <h3 class="title">무엇이 버윅 구두를 최고로 만들었는가?</h3>
+            <p>각 구두의 창의력을 부여하기 위해 각 구두는 수제 작업으로 만들어 모든 구두는 디테일이 조금씩 다릅니다.</p>
+            <a href="#" class="btn">더 알아보기</a>
+            <div class="icons-container">
+                <div class="icons">
+                    <img src="image/serv-1.png" alt="" width="40">
+                    <h3>빠른 배송</h3>
+                </div>
+                <div class="icons">
+                    <img src="image/serv-2.png" alt="" width="40">
+                    <h3>해외배송</h3>
+                </div>
+                <div class="icons">
+                    <img src="image/serv-3.png" alt="" width="40">
+                    <h3>최고의 품질</h3>
+                </div>
+                <div class="icons">
+                    <img src="image/serv-4.png" alt="" width="40">
+                    <h3>2년간 A/s보장! 구매 후 환불 및 반품은 불가합니다.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- popular section starts  -->
+    <section class="popular" id="popular">
+        <div class="heading">
+            <span>This Month</span>
+            <h3>이달의 구두</h3>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="ri-heart-line wishlist-icon"></a>
+                <div class="image">
+                    <img src="image/food-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>model : 5006</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">
+                        130,000원 <span> 145,000원</span>
+                    </div>
+                    <a href="#" class="btn">장바구니 추가</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" class="ri-heart-line wishlist-icon"></a>
+                <div class="image">
+                    <img src="image/food-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>model : 5264</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span> (150) </span>
+                    </div>
+                    <div class="price">139,000원<span> 159,000원</span> </div>
+                    <a href="#" class="btn">장바구니 추가</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" class="ri-heart-line wishlist-icon"></a>
+                <div class="image">
+                    <img src="image/food-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>model : 5031</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span> (30) </span>
+                    </div>
+                    <div class="price">80,000원<span> 105,000원</span> </div>
+                    <a href="#" class="btn">장바구니 추가</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" class="ri-heart-line wishlist-icon"></a>
+                <div class="image">
+                    <img src="image/food-4.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>model : 4254</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (220) </span>
+                    </div>
+                    <div class="price">159,000원 <span>179,000원</span> </div>
+                    <a href="#" class="btn">장바구니 추가</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" class="ri-heart-line wishlist-icon"></a>
+                <div class="image">
+                    <img src="image/food-5.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>model : 5006</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (120) </span>
+                    </div>
+                    <div class="price">149,000원 <span>159,000원</span> </div>
+                    <a href="#" class="btn">장바구니 추가</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" class="ri-heart-line wishlist-icon"></a>
+                <div class="image">
+                    <img src="image/food-6.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>model : 5296</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span> (320) </span>
+                    </div>
+                    <div class="price">98,000원 <span>110,000원</span> </div>
+                    <a href="#" class="btn">장바구니 추가</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" class="ri-heart-line wishlist-icon"></a>
+                <div class="image">
+                    <img src="image/food-7.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>model : 6154</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (330) </span>
+                    </div>
+                    <div class="price">169,000원 <span>189,000원</span> </div>
+                    <a href="#" class="btn">장바구니 추가</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" class="ri-heart-line wishlist-icon"></a>
+                <div class="image">
+                    <img src="image/food-8.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>model : 6542</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span> (210) </span>
+                    </div>
+                    <div class="price">122,000원 <span>133,000원</span> </div>
+                    <a href="#" class="btn">장바구니 추가</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- popular section ends -->
+
+    <!-- banner section starts  -->
+    <section class="banner">
+        <div class="row-banner">
+            <div class="content">
+                <span></span>
+                <h3>2025/신상</h3>
+                <p>연한 갈색과 동근란 신발 코</p>
+                <a href="#" class="btn">주문하기</a>
+            </div>
+        </div>
+
+        <div class="grid-banner">
+            <div class="grid">
+                <img src="image/banner-1.png" alt="">
+                <div class="content">
+                    <span>봄 특가</span>
+                    <h3>50% 할인</h3>
+                    <a href="#" class="btn">주문하기</a>
+                </div>
+            </div>
+
+            <div class="grid">
+                <img src="image/banner-2.png" alt="">
+                <div class="content center">
+                    <span>봄 특가</span>
+                    <h3>25% 할인</h3>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+
+            <div class="grid">
+                <img src="image/banner-3.png" alt="">
+                <div class="content">
+                    <span>기간 한정</span>
+                    <h3>100% 환불</h3>
+                    <a href="#" class="btn">주문하기</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner section ends -->
+
+    <!-- menu section starts  -->
+    <section class="menu" id="menu">
+        <div class="heading">
+            <span>Top Seller</span>
+            <h3>가장 많이 팔린 상품</h3>
+        </div>
+
+        <div class="box-container">
+            <a href="#" class="box">
+                <img src="image/menu-1.png" alt="">
+                <div class="content">
+                    <h3>model : 3819</h3>
+                    <div class="price">98,000원</div>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-2.png" alt="">
+                <div class="content">
+                    <h3>model : 4456</h3>
+                    <div class="price">62,000원</div>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-3.png" alt="">
+                <div class="content">
+                    <h3>model: 5921</h3>
+                    <div class="price"> 150,000원</div>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-4.png" alt="">
+                <div class="content">
+                    <h3>model: 4511</h3>
+                    <div class="price">79,000원</div>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-5.png" alt="">
+                <div class="content">
+                    <h3>
+                        model: 6032</h3>
+                    <div class="price">68,000원</div>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-6.png" alt="">
+                <div class="content">
+                    <h3>model: 4856</h3>
+                    <div class="price">88,000원</div>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-7.png" alt="">
+                <div class="content">
+                    <h3>model: 5212</h3>
+                    <div class="price">119,000원</div>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-8.png" alt="">
+                <div class="content">
+                    <h3>model: 5277</h3>
+                    <div class="price">159,000원</div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- menu section ends -->
+
+    <!-- order section starts  -->
+    <section class="order" id="order">
+        <div class="heading">
+            <span>order now</span>
+            <h3>집으로 즉시 배달</h3>
+        </div>
+
+        <div class="icons-container">
+            <div class="icons">
+                <img src="image/icon-1.png" alt="">
+                <h3>오전 7시부터 오후 10시까지</h3>
+            </div>
+
+            <div class="icons">
+                <img src="image/icon-2.png" alt="">
+                <h3>+123 987654321</h3>
+            </div>
+
+            <div class="icons">
+                <img src="image/icon-3.png" alt="">
+                <h3>Madrid, Spain 24615</h3>
+            </div>
+        </div>
+
+        <form action="">
+            <div class="flex">
+                <div class="inputBox">
+                    <span>이름</span>
+                    <input type="text" name="" id="" placeholder="예시: 홍길동">
+                </div>
+                <div class="inputBox">
+                    <span>전화번호</span>
+                    <input type="number" name="" id="" placeholder="예시: 999-9999-999">
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="inputBox">
+                    <span>상품 정보</span>
+                    <input type="text" name="" id="" placeholder="예시: model : 1048">
+                </div>
+                <div class="inputBox">
+                    <span>수량</span>
+                    <input type="number" name="" id="" placeholder="예시: 99개">
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="inputBox">
+                    <span>요청사항</span>
+                    <input type="text" name="" id="" placeholder="예시: 초인종을 눌러주세요">
+                </div>
+                <div class="inputBox">
+                    <span>희망 배달 시기</span>
+                    <input type="datetime-local" name="" id="">
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="inputBox">
+                    <textarea placeholder="주소" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="inputBox">
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194347.47827013506!2d-3.8443434641882797!3d40.43809861029714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2z7Iqk7Y6Y7J24IOuniOuTnOumrOuTnA!5e0!3m2!1sko!2skr!4v1742881609450!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <input type="submit" value="바로 구매" class="btn">
+
+        </form>
+    </section>
+    <!-- order section ends -->
+
+    <!-- blogs section starts  -->
+    <section class="blogs" id="blogs">
+        <div class="heading">
+            <span>our blogs</span>
+            <h3>버윅 공식 블로그를 만나보세요</h3>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <h3> <i class="fas fa-calendar"></i> 2025년 3월 25일 </h3>
+                    <img src="image/blog-1.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <div class="tags">
+                        <a href="#"> <i class="fas fa-tag"></i> 구두 / </a>
+                        <a href="#"> <i class="fas fa-tag"></i> 남성 / </a>
+                        <a href="#"> <i class="fas fa-tag"></i> 모카신 </a>
+                    </div>
+
+                    <h3>스페인의 젊은층이 사랑하는 model : 5018의 인기 비결은?</h3>
+                    <p>현재 스페인 젊은 층 사이에서 model : 5018 이 엄청난 인기를 몰고 있어 제가 직접 스페인 현지의 인터뷰를 갔습니다. 그 이유는...</p>
+                    <a href="#" class="btn">더 알아보기</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <h3> <i class="fas fa-calendar"></i> 2025년 3월 16일 </h3>
+                    <img src="image/blog-2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <div class="tags">
+                        <a href="#"> <i class="fas fa-tag"></i> 구두 / </a>
+                        <a href="#"> <i class="fas fa-tag"></i> 제화공 / </a>
+                        <a href="#"> <i class="fas fa-tag"></i> 수제화 </a>
+                    </div>
+
+                    <h3>우리가 몰랐던 버윅의 장인들이 하나의 구두를 만들기까지의 노력들</h3>
+                    <p>매일 만 켤레가 팔리는 버윅 사의 구두 1켤레를 만드는데는 숨겨진 장인들의 피와 땀이 있었습니다. 그들의 숭고한 노력과 버윅 회사만의 제작법으로...</p>
+                    <a href="#" class="btn">더 알아보기</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <h3> <i class="fas fa-calendar"></i> 2025년 3월 9일 </h3>
+                    <img src="image/blog-3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <div class="tags">
+                        <a href="#"> <i class="fas fa-tag"></i> 버윅 / </a>
+                        <a href="#"> <i class="fas fa-tag"></i> 역사 / </a>
+                        <a href="#"> <i class="fas fa-tag"></i> 버윅 장군 </a>
+                    </div>
+
+                    <h3>여러분들 버윅은 사실 영국인인 스페인 장군이였다는 것을 아셨나요?</h3>
+                    <p>버윅 회사의 시작은 1707년 버윅장군이 이끈 프랑스, 스페인 연합군이 포르투갈, 영국 그리고 네덜란드 연합군을 격파하여... </p>
+                    <a href="#" class="btn">더 알아보기</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+    <section class="footer">
+
+        <div class="newsletter">
+            <h3>주간 일보</h3>
+            <form action="">
+                <input type="email" name="" id="" placeholder="이메일을 입력하세요">
+                <input type="submit" value="구독">
+            </form>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>이주의 상품</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> model : 3819 </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> model: 6032 </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> model: 5212 </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> model: 5277 </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> 더 알아보기... </a>
+            </div>
+
+            <div class="box">
+                <h3>카테고리</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i> 남성 </a>
+                <a href="#about"> <i class="fas fa-arrow-right"></i> 여성 </a>
+                <a href="#popular"> <i class="fas fa-arrow-right"></i> 할인상품 </a>
+                <a href="#order"> <i class="fas fa-arrow-right"></i> 액세서리 </a>
+            </div>
+
+            <div class="box">
+                <h3>세계 직영점</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> 스페인 </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> 미국 </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> 일본 </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> 한국 </a>
+            </div>
+
+            <div class="box">
+                <h3>영업시간</h3>
+                <p>월요일 : 오전 7시 부터 오후 6시 30분 까지</p>
+                <p>화요일 : 오전 6시 부터 오후 6시 까지</p>
+                <p>목요일 : 오전 7시 30분 부터 오후 6시 까지</p>
+                <p>금요일 : 오전 7시 부터 오후 7시 까지</p>
+                <p>일요일 : 오전 6시 30분 부터 오후 7시 까지</p>
+                <p>수요일과 일요일 쉽니다.</p>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+            </div>
+
+            <div class="credit"> created Code with <span>GuriHimedia Academy</span> | all rights reserved!</div>
+        </div>
+
+    </section>
+    <!-- footer section ends -->
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

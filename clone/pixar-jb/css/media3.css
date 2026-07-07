@@ -1,0 +1,87 @@
+@media (max-width: 1008px){
+    .contents .wrapper ul{
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
+@media (max-width: 508px){
+    .s3-bg1, .s3-bg2{
+        display: none;
+        
+    }
+    .s3-right{flex: 100%;}
+        .contents-section2{
+            background-image: none !important;
+            border: 1px solid #585858;
+            display: none;
+        }
+        
+        .contents-section4 img{
+            width: 230px;
+          }
+    }
+
+@media (min-width: 768px) {.btn-menu{display: none;}}
+@media (max-width: 768px) {
+    .header-logo{z-index: -1;}
+    .logo{width: 30%; padding-top: 35px; padding-left: 10px;}
+    .btn-menu{
+        position: absolute;
+        top: 55px;
+        right: 30px;
+        }
+    .bglogo{ position: absolute;  top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; z-index: -1;}
+    .contents .wrapper h5{
+    margin: 0px 0px 20px 0px;   font-size: 16px;}
+    .inside{
+        left: 0px;
+    }
+    .navbar{
+        position: fixed;    
+        top: 0;  left: -250px; 
+        width: 180px;  height: 100vh; 
+        background: #fff;
+        z-index: 300;   
+        display: block;
+    }
+    
+        .inside2{display: none;}
+        .inside3{
+            position: relative;
+            left: 100px;
+        }
+        .contents-section4 p{
+            width: 250px;
+        }
+    
+        .s3-right p{
+            color: white;
+            
+        }
+        .incontent a img{
+            display: none;
+        }
+    
+        .dropdown{
+            width: 100%;
+        }
+    
+    .navbar, .navbar *{transition: 0.5s;}
+    #btn-menu:checked ~ .navbar{left: 0;}
+    
+    .dropdown .dropdown-content a{
+        color:#ffffff; border:1px solid transparent;}
+    .dropdown .dropdown-content a:hover{
+        border-bottom:1px solid white;}
+    
+        .dropdown-content{
+            width: 80%;
+            height: 100%;
+            position: fixed;
+            top: 0px;
+            left: 180px;
+        }
+    
+    }

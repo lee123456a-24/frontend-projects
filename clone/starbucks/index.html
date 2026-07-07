@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스타벅스 코리아</title>
+  <script src="https://kit.fontawesome.com/fb31173d2f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/popup.css">
+  <link rel="icon" href="images/logo.png">
+
+</head>
+
+<body>
+  <!-- Header and Navigation -->
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.png" alt="Berger Hut Logo">
+      </a>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="cold.html">콜드브루</a></li>
+        <li><a href="latte.html">라떼</a></li>
+        <li><a href="pigio.html">피지오</a></li>
+        <li><a href="envior.html">사회공헌</a></li>
+        <li><a href="company.html">회사정보</a></li>
+        <li><a href="customer.html">고객문의</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>커피 그 이상의 가치</h1>
+      <h4>커피 한 잔에 담긴 이야기, 스타벅스에서 시작됩니다</h4>
+      <h2>당신의 하루를 특별하게, 스타벅스와 함께</h2>
+      <a href="company.html" class="btn">알아보기</a>
+    </div>
+  </section>
+
+
+  <!-- Menu Section -->
+  <div class="" style="width: 100%; height: 70px; line-height:190px; text-align: center; color: #00490c;"><h1>Cold Brew</h1></div>
+  <section class="menu" id="cold">
+    <div class="menu-items">
+      <div class="menu-item" onclick="openPopup('콜드 브루 몰트', '리저브 콜드 브루 위에 녹아 내리는 한 스쿱의 바닐라 아이스크림', 'images/c01.jpg')">
+        <div class="img-wrapper">
+          <img src="images/c01.jpg" alt="콜드 브루 몰트">
+        </div>
+        <h3>콜드 브루 몰트</h3>
+        <p>리저브 콜드 브루 위에 녹아 내리는 한 스쿱의 바닐라 아이스크림</p>
+      </div>
+    
+      <div class="menu-item" onclick="openPopup('콜드 브루 플로트', '리저브 콜드 브루 위에 녹아 내리는 한 스쿱의 바닐라 아이스크림', 'images/c02.jpg')">
+        <div class="img-wrapper">
+          <img src="images/c02.jpg" alt="콜드 브루 플로트">
+        </div>
+        <h3>콜드 브루 플로트</h3>
+        <p>리저브 콜드 브루 위에 녹아 내리는 한 스쿱의 바닐라 아이스크림</p>
+      </div>
+    
+      <div class="menu-item" onclick="openPopup('리저브 나이트로', '나이트로 커피 정통의 캐스케이딩과 부드러운 콜드 크레마!', 'images/c05.jpg')">
+        <div class="img-wrapper">
+          <img src="images/c05.jpg" alt="리저브 나이트로">
+        </div>
+        <h3>리저브 나이트로</h3>
+        <p>나이트로 커피 정통의 캐스케이딩과 부드러운 콜드 크레마!</p>
+      </div>
+    </div>
+  </section>
+
+
+
+    <!-- Menu Section -->
+  <div class="" style="width: 100%; height: 20px; line-height:80px; text-align: center; color: #00490c;"><h1>Latte</h1></div>
+  <section class="menu" id="latte">
+      <div class="menu-items">
+        <div class="menu-item" onclick="openPopup('라벤더 카페 브레베', '진한 에스프레소 샷과 은은한 라벤더향이 어우러진 부드럽고 세련된 풍미의 브레베', 'images/c06.png')">
+          <div class="img-wrapper">
+            <img src="images/c06.png" alt="라벤더 카페 브레베">
+          </div>
+          <h3>라벤더 카페 브레베</h3>
+          <p>진한 에스프레소 샷과 라벤더향</p>
+        </div>
+      
+        <div class="menu-item" onclick="openPopup('바닐라 빈 라떼', '리저브만을 위한 바닐라 빈 시럽이 부드럽게 어우러진 카페 라떼', 'images/c03.jpg')">
+          <div class="img-wrapper">
+            <img src="images/c03.jpg" alt="바닐라 빈 라떼">
+          </div>
+          <h3>바닐라 빈 라떼</h3>
+          <p>리저브만을 위한 바닐라 빈 시럽이 부드럽게 어우러진 카페 라떼</p>
+        </div>
+      
+        <div class="menu-item" onclick="openPopup('아이스 바닐라 빈 라떼', '리저브만을 위한 바닐라 빈 시럽이 부드럽게 어우러진 카페 라떼', 'images/c04.jpg')">
+          <div class="img-wrapper">
+            <img src="images/c04.jpg" alt="아이스 바닐라 빈 라떼">
+          </div>
+          <h3>아이스 바닐라 빈 라떼</h3>
+          <p>리저브만을 위한 바닐라 빈 시럽이 부드럽게 어우러진 카페 라떼</p>
+        </div>
+      </div>
+    </section>
+
+  <div class="" style="width: 100%; height: 20px; line-height:80px; text-align: center; color: #00490c;"><h1>Fizzio</h1></div>
+  <section class="menu" id="pigio">
+      <div class="menu-items">
+        <div class="menu-item" onclick="openPopup('제주팔삭 셔벗 피지오', '제주송당의 소원나무에 걸린 제주 동백꽃을 형상화한 음료', 'images/c07.jpg')">
+          <div class="img-wrapper">
+            <img src="images/c07.jpg" alt="제주팔삭 셔벗 피지오">
+          </div>
+          <h3>제주팔삭 셔벗 피지오</h3>
+          <p>제주송당의 소원나무에 걸린 제주 동백꽃을 형상화한 음료</p>
+        </div>
+      
+        <div class="menu-item" onclick="openPopup('아이스 제주팔삭', '팔삭과 마누카꿀로 자몽과 블랙티의 맛을 고급스럽게 즐길 수 있는 음료', 'images/c09.jpg')">
+          <div class="img-wrapper">
+            <img src="images/c09.jpg" alt="아이스 제주팔삭">
+          </div>
+          <h3>아이스 제주팔삭</h3>
+          <p>팔삭과 마누카꿀로 자몽과 블랙티의 맛을 고급스럽게 즐길 수 있는 음료</p>
+        </div>
+      
+        <div class="menu-item" onclick="openPopup('제주팔삭 & 자몽 허니 블랙 티', '팔삭과 마누카꿀로 자몽과 블랙티의 맛을 더욱 고급스럽게 즐길 수 있는 음료', 'images/c08.jpg')">
+          <div class="img-wrapper">
+            <img src="images/c08.jpg" alt="제주팔삭 & 자몽 허니 블랙 티">
+          </div>
+          <h3>제주팔삭 & 자몽 허니 블랙 티</h3>
+          <p>팔삭과 마누카꿀로 자몽과 블랙티의 맛을 더욱 고급스럽게 즐길 수 있는 음료</p>
+        </div>
+      </div>
+    </section>
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Logo">
+        </a>
+      </div>
+      <nav class="footer-links">
+        <a href="cold.html">콜드브루</a>
+        <a href="latte.html">라떼</a>
+        <a href="pigio.html">피지오</a>
+        <a href="envior.html">환경보호 활동</a>
+        <a href="company.html">회사정보</a>
+        <a href="customer.html">고객문의</a>
+      </nav>
+
+      <div class="footer-social">
+        <a href="https://www.facebook.com/starbuckskorea/?locale=ko_KR"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://x.com/starbucksKorea?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/starbucksstarbuckskorea/?hl=ko"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <p class="footer-text">&copy; 2025 스타벅스 리뉴얼. UI/UX Designer 이정빈.</p>
+  </footer>
+
+  <!-- 팝업창 -->
+<div id="overlay"></div>
+<div class="popup" id="popup">
+  <img id="popup-image" src="" alt="메뉴 이미지">
+  <h2 id="popup-title"></h2>
+  <p id="popup-description"></p>
+  <button onclick="closePopup()">닫기</button>
+</div>
+<!-- 팝업창 -->
+
+  <script src="js/popup.js"></script>
+  <script>
+    function toggleMenu() {
+  const navLinks = document.querySelector('.nav-links');
+  const hamburger = document.querySelector('.hamburger');
+  
+  navLinks.classList.toggle('active');
+  hamburger.classList.toggle('active');
+}
+  </script>
+</body>
+</html>

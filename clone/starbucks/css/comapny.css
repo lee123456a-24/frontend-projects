@@ -1,0 +1,138 @@
+.company-page{
+    width: 100%;
+    height: 100%;
+    margin: 0 ;
+    padding: 100px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    margin-bottom: 80px;
+    width: 1200px;
+    background: #006923bd; 
+    border-radius: 30px;
+}
+
+section img{
+    width: 500px;
+    height: 350px;
+}
+
+.text{
+    padding: 70px;
+    width: 550px; /* 너비 주고 */
+    margin-right: auto; /* 오른쪽으로 밀착시킴 */
+}
+
+.text h2{
+    padding: 10px;
+    color: white;
+}
+
+.text span{
+    color: white;
+}
+
+.text p{
+    color: white;
+}
+
+
+.company-page{
+}
+
+.inner1{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.inner2{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.inner3{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.inner4{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.inner5{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media (max-width:1200px){
+    section{width: 1000px;}
+    section img{
+        width: 400px;
+        height: 270px;
+    }
+
+    .text{
+        padding: 40px;
+        width: 550px; /* 너비 주고 */
+    }
+}
+
+@media (max-width:1000px){
+    section{width: 800px;}
+    section img{
+        width: 360px;
+        height: 240px;
+    }
+
+    .text{
+        padding: 10px;
+        width: 420px; /* 너비 주고 */
+    }
+}
+
+
+@media (max-width:800px){
+    section{width: 600px;}
+    section img{
+        width: 280px;
+        height: 240px;
+    }
+
+    .text{
+        width: 300px; /* 너비 주고 */
+    }
+}
+
+@media (max-width:600px){
+    section{width: 400px;}
+    section img{
+        width: 220px;
+        height: 230px;
+    }
+
+    .text{
+        width: 170px; /* 너비 주고 */
+    }
+    .text h2{
+        font-size: 16px;
+    }
+    .text span{
+        font-size: 13px;
+    }
+    .text p{
+        font-size: 12px;
+    }
+}
